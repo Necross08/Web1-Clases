@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+	<head>
+	    <title>Document</title>
+	    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<body bgcolor="green">
+	  <!--COMENTARIO-->
+	  <h1>TEXTO Y FORMATO vcvvv</h1>
+        <h2>titulo 2</h2>
+        <h3>titulo 3</h3>
+        <h4>titulo 4</h4>
+        <h5>titulo 5</h5>
+        <h6>titulo 6</h6>
+        salto de linea <br><br><br><br><br><br> este es otro salto de linea
+        <pre> 
+            se 
+                muestra
+                        asi
+                            como
+                                 lo escribo
+        </pre>
+        linea horizontal
+        <hr>
+        <strong>Strong</strong>
+        <b>negrita</b>
+        <em>cursiva</em>
+        <mark>resaltado</mark>
+        <q cite="http://ejemplo.html">libro tal</q>
+        H<sub>2</sub>O
+        H<sup>2</sup>O
+        <small>Pequeña</small>
+        <s>Subrayado</s>
+        <abbr title="Universidad Tecnica Nacional">UTN</abbr>
+        <DFN title="Hyper text m.......">HTML</DFN>
+        <br></br>
+        <code>
+            WINDOWS.ALERT('HELLO WORLD');
+        </code>
+        <span>dwddyfy</span><span>fhrefu</span>
+        <div>div 1</div><div>div 2</div>
+        <div id="header">todo para el encabezado</div>
+        <div id="footer">todo para el pie de pagina</div>
+      </body>
+</html>
