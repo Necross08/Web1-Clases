@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formatos</title>
+  </head>
+  <body>
+    <form action="" method="post" id="prueba1">
+      <input type="text" name="" id="name" />
+      <input type="submit" value="Aceptar pruena1" />
+    </form>
+      <form action="" method="get" id="prueba2">
+        <label for="nombre">Nombre</label>
+        <imput
+          type="text"
+          name="nombre"
+          id="nombre"
+          value="Perez"
+          placeholder="Escriba su nombre "
+          maxlength="15"
+          minlength="5"
+          disabled
+        />
+        <br />
+        <label for="apellido1">Apellido</label>
+        <imput
+          type="text"
+          name="apellido1"
+          id="apellido1"
+          value=""
+          placeholder="Escriba su apellido 1 "
+          maxlength="15"
+          minlength="5"
+          readonly
+        />
+        <br />
+        <label for="password">Contraseña</label>
+        <input type="password" />
+        <br />
+        <label for="numero">Edad</label>
+        <input type="number" id="numero" max="20" min="1" />
+        <br />
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" />
+        <br />
+        <label for="color">Seleccione un color</label>
+        <input type="color" id="color" />
+        <label for="archivo">Seleccion de archivo</label>
+        <br />
+        <input type="file" id="archivo" />
+        <label for="archivo">Seleccione su genero</label>
+        <br />
+        <label>Masculino</label><input type="radio" name="genero" value="1" />
+        <br />
+        <label>Femenino</label><input type="radio" name="genero" value="2" />
+        <br />
+        <label>Neutro</label><input type="radio" name="genero" value="3" />
+        <br />
+        <label for="archivo">Seleccione su color</label>
+        <br />
+        <label>Rojo</label><input type="checkbox" name="colores" value="Rojo" checked />
+        <br />
+        <label>Negro</label><input type="checkbox" name="colores" value="Negro" />
+        <br />
+        <label>Verde</label><input type="checkbox" name="colores" value="Verde" />
+        <br />
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" />
+        <br />
+        <label for="fechaHora">fecha Y Hora</label>
+        <input type="datetime" id="fechaHora" />
+        <br />
+        <label for="Hora">Hora</label>
+        <input type="time" id="Hora" />
+        <br />
+        <label for="mes">Mes</label>
+        <input type="month" id="mes" />
+        <br />
+        <label for="semana">Semana</label>
+        <input type="week" id="semana" />
+        <br />
+        <label for="url">Url</label>
+        <input type="url" id="url" />
+        <br />
+        <label for="direccion">Direccion</label>
+        <br />
+        <textarea namecols="20" rows="10"> </textarea>
+        <br />
+        <label for="marcaVehiculo">Marca Vehiculo</label>
+        <select id="marcaVehiculo">
+          <option value="1">Wolkswagen</option>
+          <option value="2">Toyota</option>
+          <option value="3">Nissan</option>
+          <option value="4" selected>Honda</option>
+        </select>
+        <br />
+        <input type="submit" value="Aceptar prueba 2" />
+        <imput type="submit" value="Aceptar" />
+        <imput type="reset" value="Resetear" />
+        <button click="console.log('hola')">Guardar</button>
+      </form>
+      <label for="marcaMoto">Marca Moto</label>
+      <select id="marcaMoto" form="prueba1">
+        <option value="1">Honda</option>
+        <option value="2">Kawasaki</option>
+        <option value="3">Formula</option>
+        <option value="4" selected>UM</option>
+      </select>
+  </body>
+</html>
