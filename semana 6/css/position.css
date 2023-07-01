@@ -1,0 +1,30 @@
+.div1,.div2,.div3,.div4 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+
+}
+.div1 {
+    background-color: aqua;
+    position: static;
+}
+.div2 {
+    background-color: rgb(48, 4, 131);
+    position: relative;
+    top: 20px;
+    left: 600px;
+    z-index: 100;
+}
+.div3 {
+    background-color: rgb(18, 19, 19);
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    margin: inherit;
+}
+.div4 {
+    background-color: rgb(44, 201, 12);
+    position: fixed;
+    top: 300px;
+
+}

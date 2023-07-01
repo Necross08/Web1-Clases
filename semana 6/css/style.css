@@ -1,0 +1,57 @@
+* {
+    background-color: beige;
+   /* background-image: url('../img/foto.jpg'); */
+}
+/* Agrupamiento en css atravez de la , */
+body {
+    /* background-color: blueviolet; */
+    background-image: url('../img/black.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+.div1,.div2,.div3,.div4 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* border-radius: 30%; */
+    /* display: inline; */
+    /* display: inline-flex; */
+    /* float: left; */
+    /* float: right; */
+
+}
+.div1,.div2 {
+    /* display: inline-flex; */
+    display: inline-block;
+
+}
+.div1 {
+    /* background-color: rgb(40, 4, 75); */
+    background-image: url('../img/avatar.png');
+    background-size: cover;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 15%;
+    /* float: top; */
+}
+
+.div2 {
+    background-color: rgb(107, 101, 114); 
+    border: 1px solid rgb(37, 155, 37);
+    width: 84.50%;
+    /* float: left; */
+}
+.div3 {
+    background-color: rgb(88, 212, 39);
+    border: 1px solid rgb(29, 31, 29);
+    width: 100%;
+}
+
+.div4 {
+    background-color: rgb(192, 19, 27);
+    border: 1px solid rgb(11, 119, 219);
+    margin-top: 20px;
+    /* float: right; */
+}
