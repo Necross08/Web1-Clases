@@ -4,11 +4,196 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Let's Go</title>
+    <link rel="stylesheet" href="css/style.css">
+    
   </head>
-  <body bgcolor="green">
-    <form action="login.html">
-        <input bgcolor="cian" type="submit" value="Ingresar">
-      </form>
+  <body>
+    <div class="logo">
+      <!-- <img src="https://i.pinimg.com/564x/d1/63/bd/d163bd12e7e8d2870ad0fed0b76256fe.jpg"  -->
+     <!-- width="200" height="200" > -->
+    </div>
+    <header>
+      <h1>Let's Go - Medios de Transporte en Costa Rica</h1> 
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Transporte-publico.html">Transporte Público</a>
+        <a href="alquiler-vehiculos.html">Alquiler de Vehículos</a>
+        <a href="vuelos-internos.html">Vuelos Internos</a>
+        <a href="#consejos-transporte">Consejos de Transporte</a>
+        <a href="#recursos-adicionales">Recursos Adicionales</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="divLoging">
+        <div class="divLogo">
+          <!-- <img src="https://i.pinimg.com/564x/d1/63/bd/d163bd12e7e8d2870ad0fed0b76256fe.jpg"  -->
+          <!-- width="200" height="200" > -->
+        </div>
+        <form>
+          <label for="User">Usuario</label>
+          <input left='1px' type="id" id="User" required />
+          <br />
+          <label for="Password">Contraseña</label>
+          <input type="password" id="Password" required />
+          <br>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </header>
+    <main>
+      <br>
+      <br>
+      <h1>Let's Go - Medios de Transporte en Costa Rica</h1> 
+      <p>Bienvenido a nuestra guía de medios de transporte en Costa Rica</p>
+      <p>Descubre cómo moverte por el país y disfruta al máximo de tus aventuras.</p>
+      <br>
+  
+      <!-- <section id="transporte-publico"> -->
+        <!-- <h4>Transporte Público</h4>
+        <p>Costa Rica cuenta con un sistema de transporte público accesible y confiable que te permite desplazarte por todo el país. Estas son algunas opciones:</p>
+        <ul>
+          <li><a href="#"><img src="image/Bus.png" style="width: 100px;"></a></li>
+          <li><a href="#"><img src="image/Tren.png" style="width: 100px;"></a></li>
+          <li><a href="#"><img src="image/Taxi.png" style="width: 100px;"></a></li>
+        </ul>
+      </section>
+  
+      <section id="alquiler-vehiculos">
+        <h4>Alquiler de Vehículos</h4>
+        <p>Si prefieres mayor flexibilidad y libertad para explorar Costa Rica, el alquiler de vehículos es una excelente opción. Puedes rentar:</p>
+        <ul>
+          <li><a href="#"><img src="image/Automovil.png" style="width: 100px;"></a></li>
+          <li><a href="#"><img src="image/Moto.png" style="width: 100px;"></a></li>
+          <li><a href="#"><img src="image/Bicicleta.png" style="width: 100px;"></a></li>
+        </ul>
+      </section>
+  
+      <section id="vuelos-internos">
+        <h4>Vuelos Internos</h4>
+        <a href="#"><img src="image/AVion.png" style="width: 100px;"></a>
+        <p>Si deseas desplazarte rápidamente entre diferentes regiones de Costa Rica, los vuelos internos son una alternativa conveniente. Algunas aerolíneas locales ofrecen vuelos a varios destinos populares.</p>
+      </section> -->
+
+      <div class="slider-container">  
+        <img
+          class="slider-item"
+          src="image/hotel.jpeg"/>
+        <img
+          class="slider-item"
+          src="image/tour3.jpg"
+        />
+        <img
+          class="slider-item"
+          src="image/Bus.png"
+        />
+      </div> 
+
+      <section id="transporte-publico">
+        <h4>Transporte Público</h4>
+        <p>Costa Rica cuenta con un sistema de transporte público accesible y confiable que te permite desplazarte por todo el país. Estas son algunas opciones:</p>
+        <ul>
+          <li><a href="#"><img src="image/Bus.png" style="width: 100px;"></a></li>
+          <li><a href="#"><img src="image/Tren.png" style="width: 100px;"></a></li>
+          <li><a href="#"><img src="image/Taxi.png" style="width: 100px;"></a></li>
+        </ul>
+      </section>
+  
+      <section id="alquiler-vehiculos">
+        <h4>Alquiler de Vehículos</h4>
+        <p>Si prefieres mayor flexibilidad y libertad para explorar Costa Rica, el alquiler de vehículos es una excelente opción. Puedes rentar:</p>
+        <ul>
+          <li><a href="#"><img src="image/Automovil.png" style="width: 100px;"></a></li>
+          <li><a href="#"><img src="image/Moto.png" style="width: 100px;"></a></li>
+          <li><a href="#"><img src="image/Bicicleta.png" style="width: 100px;"></a></li>
+        </ul>
+      </section>
+  
+      <section id="vuelos-internos">
+        <h4>Vuelos Internos</h4>
+        <a href="#"><img src="image/AVion.png" style="width: 100px;"></a>
+        <p>Si deseas desplazarte rápidamente entre diferentes regiones de Costa Rica, los vuelos internos son una alternativa conveniente. Algunas aerolíneas locales ofrecen vuelos a varios destinos populares.</p>
+      </section> 
+
+      <section id="consejos-transporte">
+        <h2>Consejos de Transporte</h2>
+        <p>Aquí encontrarás algunos consejos útiles para moverte por Costa Rica y aprovechar al máximo tus desplazamientos.</p>
+      </section>
+  
+      <section id="recursos-adicionales">
+        <h2>Recursos Adicionales</h2>
+        <p>Explora estos enlaces y recursos adicionales para obtener más información sobre los medios de transporte en Costa Rica:</p>
+        <ul>
+          <li><a href="#">Guías de turismo</a></li>
+          <li><a href="#">Información sobre rutas y horarios</a></li>
+          <li><a href="#">Consejos para la conducción en Costa Rica</a></li>
+          <li><a href="#">Mapas y planos de transporte</a></li>
+          <li><a href="#">Preguntas frecuentes</a></li>
+        </ul>
+      </section>
+  
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos:</p>
+        <p>Teléfono: +506 7141 9061</p>
+        <p>Email: letsgo@turismo.com</p>
+      </section>
+      <section id="sugerencias">
+        <h2>Sugerencias</h2>
+
+        <form action="" method="get" name="Sugerencias">
+          <input type="text" 
+          sugerencias="" id="Sugerencias"
+          placeholder=" Escriba su sugerencias aquí.."
+          size="120">
+          <input type="submit" value="Aceptar">
+          <br><br>
+      </section>
+      <section id="redes_sociales">
+        <h2><center>Redes Sociales</center></h2>
+    <hr>
+    <a href="https://www.facebook.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6QeE1SCzb9JxBKHxwVAFllDubEgQ56y9Rrg&usqp=CAU"
+        alt="Imagen de Facebook"
+        width="120px"
+        height="100px">
+    </a>
+    <a href="https://www.instagram.com/"><img src="https://1000marcas.net/wp-content/uploads/2019/11/Instagram-app-logo.jpg" 
+        alt="Imagen de Instagram"
+        width="150px"
+        height="100px">
+    </a>
+    <a href="https://www.tiktok.com/es/"><img src="https://1000marcas.net/wp-content/uploads/2019/12/Colores-Tik-Tok-Logotipo.jpg" 
+        alt="Imagen de TikTok"
+        width="150px"
+        height="100px">
+    </a>
+    <a href="https://www.youtube.com/"><img src="https://tentulogo.com/wp-content/uploads/2017/08/youtube-logo.jpg" 
+        alt="Imagen de youtube"
+        width="150px"
+        height="100px">
+    </a>
+      </section>
+    </main>
+  
+    <footer>
+      <div>
+        <h3>Sobre Nosotros</h3>
+        <p>Somos una agencia de turismo dedicada a brindar experiencias inolvidables a nuestros clientes.</p>
+      </div>
+      <div>
+        <h3>Enlaces</h3>
+        <nav>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#transporte-publico">Transporte Público</a></li>
+          <li><a href="#alquiler-vehiculos">Alquiler de Vehículos</a></li>
+          <li><a href="#vuelos-internos">Vuelos Internos</a></li>
+          <li><a href="#consejos-transporte">Consejos de Transporte</a></li>
+          <li><a href="#recursos-adicionales">Recursos Adicionales</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </nav>
+      </div>
+      <div>
+        <p>&copy; 2023 Let's Go - Medios de Transporte en Costa Rica. Todos los derechos reservados.</p>
+      </div>
+    </footer>
   </body>
   
 </html>

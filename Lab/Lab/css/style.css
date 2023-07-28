@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to right,  #4cd494 50%,  #e4e4e4 50%);
+}
+.btn-log{
+    color:white;
+    background-color:  #4cd494;
+    border-radius: 7%;
+}
+.btn-log:hover{
+    background-color:rgba(39,43,50,255);
+    color:white;
+}
+.formulario{
+    width: 400px;
+    height: 500px;
+    border-radius: 10%;
+}
+#flexCheckChecked{
+    margin-left: 5%;
+}
+.labelReme{
+    margin-left: -5%;
+}
+.usua, .pas{
+    border-radius: 10%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+p, label{
+    padding-left: 10%;
+}
+.form-pass, .form-user{
+    left: 50%;
+    border-radius: 60px;
+}
+p{
+    padding-top: 10%;
+}
+.col-xl-6{
+    color: white;
+    font-size:x-large;
+}
