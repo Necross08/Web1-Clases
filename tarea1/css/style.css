@@ -1,0 +1,57 @@
+.cuadro{
+    border: 2%;
+    border-color: black;
+    padding: 2%;
+}
+img{
+    width: 300px;
+    height: 100%;
+}
+.izq{
+    width: 70%;
+    height: 60%;
+}
+#password, #User{
+    border: 5px, 10px;
+    border-color: black;
+}
+.pas{
+    text-decoration: underline;
+}
+.remember{
+    display: inline;
+}
+#password, #User {
+    width: 50%;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-color:  black;
+    border-style: solid;
+}
+#password{
+    margin-top: 0%;
+}
+#User{
+    margin-bottom: 0%;
+}
+.log, .fa, .tw, .go{
+    left: 18%;
+    width: 60%;
+}
+.or{
+    text-align: center;
+}
+.fa, .pfa{
+    background-color: lightskyblue;
+    color: white;
+}
+.tw, .ptw{
+    background-color: violet;
+    color: white;
+}
+.go, .pgo{
+    background-color: red;
+    color: white;
+}
