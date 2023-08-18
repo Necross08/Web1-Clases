@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+    color: white;
+}
+nav.menu span.option ul li a {
+    color: orange;
+}
+div#page > div {
+    color: blue;
+}
+div#page + div{
+    color: rgb(255, 136, 0);
+}
+div#page + div + div {
+    color: yellow;
+}
+div.post span + span {
+    color: blueviolet;
+
+}
+div.post strong ~ strong {
+    background-color: rgb(14, 138, 138);
+}
+div#menu * {
+    background-color: gray;
+}
+div#menu h3:hover{
+    background-color: red;
+}
+.nombre:focus {
+    background-color: blueviolet;
+}
+.imagen{
+    width: 100px;
+    height: 100px;
+    
+}
+.imagen:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: -15px -10px 5px 10px red;
+}
