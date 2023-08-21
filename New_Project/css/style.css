@@ -1,0 +1,104 @@
+header {
+    background-image: url('../img/carrete.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #1c6909; */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    
+  }
+  .body{
+    margin-top: 15%;
+  }
+.top{
+    margin-top: 25%;
+}
+.princi{
+    margin-left: 50%;
+}
+.blockquote-footer{
+    margin-left: 50%;
+}
+.mid1,.mid2,.mid3{
+    margin-left: 35%;
+}
+.btn-primary{
+    color: white;
+    background-color: orangered;
+}
+#tituloTabla,#trasnAcua,#trasnFerry,#transAereo{
+  background-color: orangered;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  main {
+    padding: 150px;
+    text-align: center;
+  }
+  h2 {
+    width: 100%;
+    background-color: rgb(244, 73, 30);
+    display: inline block;
+    text-align: center;
+    border: 1px solid 
+}
+  
+  p {
+    color: #666666;
+    font-size: 16px;
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    background-color: #095c2b;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: -50px;
+  }
+
+  h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgb(8, 114, 4);
+    border: 5px dotted rgb(236, 233, 233);
+    display: inline block;
+    text-align: center;
+    border: 1px solid;
+    
+  }
+  
+  footer p {
+    color: #ffffff;
+  }
+  
+  /* Estilos adicionales */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #0bcead;
+    text-decoration: none;
+  }

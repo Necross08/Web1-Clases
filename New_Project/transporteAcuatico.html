@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transporte Acuatico</title>
+    <!-- Adding Bootstrap CSS -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<header>
+
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark"">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo1.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contenido
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Transporte Terrestre</a></li>
+              <li><a class="dropdown-item" href="transporteAcuatico.html">Transporte Maritimo 
+                <ul type="circle"><li><a class="dropdown-item" href="alquilerAcuatico.html">
+                  Alquiler de Vehiculos Acuaticos</a></li></ul></a></li>
+              <li><a class="dropdown-item" href="aereo.html">Transporte Aereo</a></li>
+              <li><a class="dropdown-item" href="hospedaje.html">Hospedaje</a></li>
+              <li><a class="dropdown-item" href="tour.html">Tours</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="consejoTransporte.html">Consejos de Transporte</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="recursosAdicionales.html">Recursos Adicionales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Enlace</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">V.1.0.1</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<body>
+  <main>
+    <div class="container">
+      <!-- TABLA TRANSPORTE ACUATICO -->
+      <div class="row mt-4">
+        <div class="col-md-12 text-center">
+          <h1>Let's Go - Transporte Acuatico</h1>
+          <img src="../IMG/ferry.png" style="width: 100px" alt="Ferry Image" />
+          <p>
+            El Ferry es un transporte acuatico que permite conectar en este caso
+            Puntarenas con la Peninsula de Nicoya, etc.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <table class="table table-bordered">
+            <!-- Table content goes here -->
+          </table>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th colspan="9" bgcolor="#f4491e" class="text-center" id="trasnAcua">
+                  Información General de Transportes Acuaticos
+                </th>
+              </tr>
+              <tr>
+                <th>Tipo</th>
+                <th>Ruta</th>
+                <th>Compañia</th>
+                <th>Horario</th>
+                <th>Duración</th>
+                <th>Menores de edad</th>
+                <th>Adultos</th>
+                <th>Adulto Mayor</th>
+                <th>Contacto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ferry</td>
+                <td>Paquera</td>
+                <td>Naviera Tambor S.A</td>
+                <td>
+                  Paquera: 5:30 a.m- 8:30 p.m | Puntarenas: 5:30am-8:00p.m
+                </td>
+                <td>minimo 1 hora</td>
+                <td>₡485</td>
+                <td>₡810</td>
+                <td>Exonerado</td>
+                <td>Terminal Barrio el Carmen 2661-2084</td>
+              </tr>
+              <tr>
+                <td>Ferry</td>
+                <td>Playa Naranjo</td>
+                <td>COONATRAMAR R.L.</td>
+                <td>
+                  Naranjo: 6:30 a.m- 5:30 p.m | Puntarenas: 8:00am-7:00p.m
+                </td>
+                <td>2 horas 30 minutos</td>
+                <td>₡600</td>
+                <td>₡1005</td>
+                <td>Exonerado</td>
+                <td>
+                  Terminal CONTRAMAR 2650-0196 | Terminal Barrio del Carmen
+                  2661-2084
+                </td>
+              </tr>
+              <tr>
+                <td>Bote</td>
+                <td>Isla Chira – Costa de Pájaros</td>
+                <td>no tiene</td>
+                <td>
+                  Costa de Pajaros: 7:50 a.m- 2:50 p.m | Isla Chira:
+                  6:00am-1:00p.m
+                </td>
+                <td>Sin tiempo estimado</td>
+                <td>₡205</td>
+                <td>₡2.000</td>
+                <td>No Exonerado</td>
+                <td>Centro Costa de Pajaros 83533746</td>
+              </tr>
+              <tr>
+                <td>Bote</td>
+                <td>Puntarenas-Isla Chira</td>
+                <td>No tiene</td>
+                <td>Isla Chira: L-S 6:00 a.m D 12:30 MD</td>
+                <td>Sin tiempo estimado</td>
+                <td>₡205</td>
+                <td>₡2.000</td>
+                <td>No Exonerado</td>
+                <td>El Muellecito en Mercado 83533746</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            La tabla anterior solo contaba con información general, o solo para
+            pasajeros. Es por ello que la siguiente Tabla explica mejor los
+            precios.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <!-- VEHICULOS EN LOS FERRYS -->
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th colspan="8" bgcolor="#f4491e" class="text-center" id="trasnFerry">
+                  Tarifa de Vehiculos en el Ferry
+                </th>
+              </tr>
+              <tr>
+                <th>Nombre Ferry</th>
+                <th>Motocicleta</th>
+                <th>Bicicleta</th>
+                <th>Triciclo/Cuadraciclo</th>
+                <th>Vehiculo Liviano</th>
+                <th>Microbus 10-25</th>
+                <th>Buseta 26-44</th>
+                <th>Autobus</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Tambor/Paquera</td>
+                <td>₡3 400</td>
+                <td>₡2 200</td>
+                <td>₡6 800</td>
+                <td>₡11 400</td>
+                <td>₡18 300</td>
+                <td>₡20 600</td>
+                <td>₡22 900</td>
+              </tr>
+              <tr>
+                <td>Naranjo</td>
+                <td>₡3 390</td>
+                <td>₡6 780</td>
+                <td>₡2 260</td>
+                <td>₡6 780</td>
+                <td>₡16 950</td>
+                <td>₡19 210</td>
+                <td>₡21 470</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Las tarifas anteriores no incluyen el precio de IVA, es 13% de
+            impuestos.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section id="consejos-transporte">
+      <h2>Consejos de Transporte</h2>
+      <p>Aquí encontrarás algunos consejos útiles para moverte por Costa Rica y aprovechar al máximo tus desplazamientos.</p>
+    </section>
+
+    <section id="recursos-adicionales">
+      <h2>Recursos Adicionales</h2>
+      <p>Explora estos enlaces y recursos adicionales para obtener más información sobre los medios de transporte en Costa Rica:</p>
+      <ul>
+        <li><a href="#">Guías de turismo</a></li>
+        <li><a href="#">Información sobre rutas y horarios</a></li>
+        <li><a href="#">Consejos para la conducción en Costa Rica</a></li>
+        <li><a href="#">Mapas y planos de transporte</a></li>
+        <li><a href="#">Preguntas frecuentes</a></li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos:</p>
+      <p>Teléfono: +506 7141 9061</p>
+      <p>Email: letsgo@turismo.com</p>
+    </section>
+    <section id="sugerencias">
+      <h2>Sugerencias</h2>
+
+      <form action="" method="get" name="Sugerencias">
+        <input type="text" 
+        sugerencias="" id="Sugerencias"
+        placeholder=" Escriba su sugerencias aquí.."
+        size="120">
+        <input type="submit" value="Aceptar">
+        <br><br>
+    </section>
+    <section id="Redes sociales">
+      <h2><center>Redes Sociales</center></h2>
+      <table width="300px" style="position: relative; left: 180px;">
+        <tr>
+            <th>Facebook</th><th>Instagram</th><th>Tik Tok</th><th>Youtube</th>
+        </tr>
+        <tr>
+            <th> <a href="https://www.facebook.com/"> <img src="img/Facebook.png" width="50" height="50"> </a> </th>
+            <th> <a href="https://www.instagram.com/"> <img src="img/Instagram.png" width="50" height="50"> </a> </th>
+            <th> <a href="https://www.tiktok.com/es/"> <img src="img/Tik Tok.png" width="50" height="50"> </a> </th>
+            <th> <a href="https://www.youtube.com/"> <img src="img/Youtube.png" width="50" height="50"> </a> </th>
+        </tr>
+      </table>
+    </section>
+</main>
+    <footer>
+      <div>
+        <h3>Sobre Nosotros</h3>
+        <p>Somos una agencia de turismo dedicada a brindar experiencias inolvidables a nuestros clientes.</p>
+      </div>
+      <div>
+        <h3>Enlaces</h3>
+        <nav>
+          <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Transporte Público</a></li>
+                <li><a href="#">Alquiler de Vehículos</a></li>
+                <li><a href="aereo.html">Vuelos Internos</a></li>
+                <li><a href="consejoTransporte.html">Consejos de Transporte</a></li>
+                <li><a href="recursosAdicionales.html">Recursos Adicionales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+        </nav>
+      </div>
+      <div>
+        <p>&copy; 2023 Let's Go - Medios de Transporte en Costa Rica. Todos los derechos reservados.</p>
+        <p>Version 29.6.2</p>
+      </div>
+    </footer>
+
+  <script src="js/index.js"></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+  crossorigin="anonymous"
+></script>
+  </body>
+</html>
